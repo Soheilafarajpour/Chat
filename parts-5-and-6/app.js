@@ -67,7 +67,7 @@ sendBtn.addEventListener('click', e => {
 loginBtn.addEventListener('click', e => {
 	e.preventDefault();
 	if (!usernameInput.value) {
-		return console.log('Must supply a username');
+		return console.log('Must be supply a username');
 	}
 
 	//set the username and create logged in message
